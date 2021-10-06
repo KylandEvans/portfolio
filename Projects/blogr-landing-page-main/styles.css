@@ -1,0 +1,571 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+#body {
+	font-size: 16px;
+	font-family: "Overpass", sans-serif;
+}
+
+header {
+	background: url(./images/bg-pattern-intro.svg),
+		linear-gradient(to right, #ff8f70, #ff3d54);
+	background-position: 25% 50%, left top;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 550px;
+	border-bottom-left-radius: 100px;
+	color: white;
+}
+
+.nav-bar {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	padding-top: 35px;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 15px;
+	width: 25%;
+}
+
+.nav-buttons {
+	width: 50%;
+	margin-left: 10px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-button {
+	color: white;
+	text-decoration: none;
+	margin: 7px;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.dropdown-button:hover img {
+	transform: rotate(180deg);
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	padding: 12px;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+
+.dropdown-content a {
+	font-family: "Overpass";
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-weight: 400;
+	width: 150px;
+}
+
+.dropdown-content a:hover {
+	font-weight: 600;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover {
+	background-color: transparent;
+}
+
+.login-buttons {
+	display: flex;
+	justify-content: flex-start;
+	width: 20%;
+}
+
+.login-buttons button:first-child {
+	background: transparent;
+	border: none;
+	padding: 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.login-buttons button:last-child {
+	background-color: white;
+	border: none;
+	border-radius: 24px;
+	width: 40%;
+	height: 40px;
+	color: #ff525d;
+	margin-left: 20px;
+}
+
+.login-buttons button:last-child:hover,
+.btn-strt-free:hover {
+	color: white;
+	cursor: pointer;
+	background-color: #ff7a85;
+}
+
+.main-header {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	height: 300px;
+	align-items: center;
+}
+
+h1 {
+	font-size: 65px;
+	font-family: "Overpass";
+	margin: 25px 0;
+	font-weight: 600;
+	text-align: center;
+}
+
+.sub-header {
+	font-size: 16px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.btn-strt-free {
+	background-color: white;
+	font-size: 16px;
+	border: none;
+	border-radius: 24px;
+	height: 40px;
+	color: #ff525d;
+	width: 120px;
+	margin: 3px;
+}
+
+.btn-lrn-more {
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 24px;
+	outline: none;
+	height: 40px;
+	width: 120px;
+	margin: 3px;
+}
+
+.btn-lrn-more:hover {
+	background-color: white;
+	color: #ff525d;
+	cursor: pointer;
+}
+
+.first-section-header {
+	display: flex;
+	justify-content: center;
+	margin-top: 125px;
+	color: #1f3f5b;
+	font-size: 40px;
+	text-align: center;
+}
+
+.section-seperator {
+	display: grid;
+	grid-template-columns: 50% 40%;
+}
+
+.first-section-text {
+	font-family: "Overpass";
+	color: #1f3f5b;
+	display: flex;
+	flex-direction: column;
+	height: 650px;
+	margin-left: 12%;
+	padding-right: 10%;
+	margin-top: 125px;
+}
+
+.editor-header {
+	font-size: 28px;
+	margin-bottom: 40px;
+}
+
+.first-section-first-p-tag {
+	font-size: 16px;
+	margin-bottom: 100px;
+}
+
+.illustration-editor-desktop {
+	position: absolute;
+	top: 620px;
+	margin-right: -300px;
+	right: 10px;
+}
+
+.illustration-editor-mobile {
+	display: none;
+}
+
+.section-two {
+	background: url("./images/bg-pattern-circles.svg"),
+		linear-gradient(to right, #2c2d3f, #3f4164);
+	background-position: -50% 85%;
+	background-repeat: no-repeat;
+	height: 425px;
+	width: 100%;
+	margin-top: 20px;
+	border-bottom-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+
+.section-two-wrapper {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.phones-image {
+	margin-top: -50px;
+	margin-left: 100px;
+}
+
+.infratructure-heading {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 30%;
+	font-size: 32px;
+	color: white;
+	width: 85%;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.infrastructure-text {
+	font-family: "Overpass";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	width: 70%;
+	color: white;
+	text-align: center;
+}
+
+.section-three {
+	height: 1000px;
+}
+
+.section-three-wrapper {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.laptop-image {
+	margin-left: -275px;
+	margin-top: 50px;
+}
+
+.laptop-image-mobile {
+	display: none;
+}
+
+.section-three-text-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 100%;
+	width: 85%;
+	font-family: "Overpass";
+	margin-top: 100px;
+}
+
+.section-three-header {
+	color: #4b5862;
+	font-size: 32px;
+	margin-bottom: 25px;
+}
+
+.section-three-text {
+	font-size: 16px;
+	margin-bottom: 100px;
+}
+
+footer {
+	height: 300px;
+	background-color: #25252d;
+	border-top-right-radius: 70px;
+}
+
+.footer-wrapper {
+	display: grid;
+	grid-template-columns: 30% 20% 20% 20%;
+}
+
+.footer-logo {
+	margin: auto;
+	margin-top: 40px;
+}
+
+.footer-headers {
+	color: #cccccf;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	font-weight: 600;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	color: #c8c8cb;
+	margin-bottom: 15px;
+	text-decoration: none;
+	font-weight: 300;
+	width: fit-content;
+}
+
+.footer-links:hover {
+	text-decoration: underline;
+}
+
+.mobile-nav-toggle {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	top: 48px;
+	right: 32px;
+}
+
+.mobile-nav-toggle:hover {
+	cursor: pointer;
+}
+
+.bar {
+	height: 2px;
+	width: 30px;
+	background-color: white;
+	margin: 2px;
+}
+
+.login-buttons-mobile {
+	display: none;
+}
+
+.X {
+	display: flex;
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+}
+
+.X::before,
+.X::after {
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 30px;
+	background-color: white;
+	top: 42px;
+	right: 48px;
+}
+
+.X::before {
+	transform: rotate(45deg);
+}
+
+.X::after {
+	transform: rotate(-45deg);
+}
+
+.X:hover {
+	cursor: pointer;
+}
+
+hr {
+	display: none;
+}
+
+.nav-drop-arrow-dark {
+	display: none;
+}
+
+.signup-modal-wrapper {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.541);
+}
+
+.signup-modal {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	width: 600px;
+	height: 55%;
+	background: linear-gradient(to right, #ff8f70, #ff3d54);
+	border-radius: 25px;
+}
+
+.signup-modal form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 70%;
+	width: 95%;
+}
+
+.signup-modal form hr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0.75),
+		rgba(255, 255, 255, 0)
+	);
+	height: 1px;
+	width: 95%;
+	border: 0;
+}
+
+.signup-modal form input,
+.signup-modal form input:hover,
+.signup-modal form input:focus,
+.signup-modal form input:focus-within,
+.signup-modal form input:focus-visible,
+.signup-modal form input:active,
+select,
+option {
+	font-size: 14px;
+	background-color: rgba(212, 68, 68, 0.753);
+	border: dashed 1px white;
+	border-radius: 7px;
+	text-indent: 5px;
+	outline: none;
+	caret-color: white;
+	color: white;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	margin-left: 30px;
+}
+
+.signup-button {
+	margin-right: 15px;
+	height: 50px;
+	width: 150px;
+	margin-bottom: -10px;
+	border-radius: 25px;
+	border: none;
+}
+
+.signup-button:hover {
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+.signup-button:active {
+	transform: scale(0.98);
+}
+
+.signup-button:first-child {
+	background-color: white;
+	color: #ff3d54;
+}
+
+.signup-button:last-child {
+	background-color: #ff3d54;
+	color: white;
+	border: solid 1px white;
+}
+
+.login-modal-wrapper {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.541);
+}
+
+.login-modal {
+	width: 600px;
+	height: 35%;
+	background: linear-gradient(to right, #ff8f70, #ff3d54);
+	border-radius: 25px;
+	color: white;
+}
+
+.login-modal form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 80%;
+}
+
+.login-logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.login-buttons-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+}
+
+.login-form input {
+	font-size: 14px;
+	background-color: rgba(212, 68, 68, 0.753);
+	border: dashed 1px white;
+	border-radius: 7px;
+	text-indent: 5px;
+	outline: none;
+	caret-color: white;
+	color: white;
+}
+
+.error-text {
+	display: none;
+	font-size: 10px;
+	font-style: italic;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.error {
+	border: solid 2px red !important;
+}

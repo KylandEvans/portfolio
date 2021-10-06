@@ -1,0 +1,197 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	overflow: auto;
+}
+
+.body-class {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+		url("./Images/Main_BG.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+/* .nav-bar {
+	display: block;
+} */
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-link {
+	display: inline-block;
+	border: white 5px solid;
+	height: 35px;
+	width: auto;
+	margin-right: auto;
+	padding: 6px;
+	margin: 12px;
+	color: white;
+	font-size: 2rem;
+	text-decoration: none;
+	border-radius: 6px;
+}
+
+.main-link > a:hover {
+	font-weight: 700;
+}
+
+.main-link > a:visited,
+.main-link > a:active,
+.main-link > a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link {
+	display: inline-block;
+	margin: 10px;
+	list-style: none;
+	padding: 50px;
+	color: black;
+	background-color: rgba(49, 45, 45, 0.76);
+	text-decoration: none;
+	border-bottom: red solid 2px;
+	cursor: pointer;
+}
+
+.nav-link:hover {
+	background-color: rgba(24, 21, 21, 0.76);
+}
+
+.nav-link > a {
+	display: flex;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+}
+
+.bio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 100vw;
+	height: 70vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.bio-image {
+	display: grid;
+	height: 10rem;
+	width: 10rem;
+	margin-right: 4rem;
+	margin-left: -10rem;
+	border-radius: 50%;
+	float: left;
+}
+
+.bio-text {
+	width: 30%;
+	overflow: auto;
+}
+
+.about-section {
+	display: grid;
+}
+
+.hb-icon {
+	display: none;
+	height: fit-content;
+	flex-direction: column;
+	margin: 1rem 1rem 0 0;
+	border: 1px white solid;
+	float: right;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+.hb-icon-bar {
+	height: 3px;
+	width: 30px;
+	margin: 5px 2px;
+	background-color: white;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	color: white;
+	margin: auto;
+}
+
+.projects-content-container {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 20% 20% 20% 20%;
+	gap: 3%;
+	margin: 30px 0;
+}
+
+.project {
+	border: solid 1px white;
+	height: 500px;
+	padding: 5px;
+}
+
+.project:hover {
+	cursor: pointer;
+	background-color: #50505038;
+	transform: scale(1.05);
+}
+
+.project-head {
+	display: flex;
+	width: 100%;
+	height: 70%;
+	padding-bottom: 15px;
+}
+
+.project-head img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+.project-body p {
+	color: white;
+	text-decoration: none !important;
+}
+
+.project-body p:hover,
+.project-body p:active,
+.project-body p:focus,
+.project-body p:visited {
+	color: white;
+	text-decoration: none !important;
+}
