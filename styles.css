@@ -82,9 +82,38 @@ header {
 	height: 100%;
 	object-fit: cover;
 	overflow: hidden;
+	position: relative;
 }
 
 .slides img {
+	display: flex;
 	width: 80%;
 	height: 100%;
+}
+
+.img-gallery-button {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+.img-gallery-button:hover {
+	background-color: #ddd;
+}
+
+.img-span-container {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+}
+
+.img-span {
+	width: 40px;
+	height: 5px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 5px;
 }
