@@ -87,8 +87,8 @@ header {
 
 .slides img {
 	display: flex;
-	width: 80%;
-	height: 100%;
+	width: 1200px;
+	height: 1600px;
 }
 
 .img-gallery-button {
@@ -116,4 +116,16 @@ header {
 	background-color: white;
 	margin: 10px;
 	border-radius: 5px;
+}
+
+#header-img-1 {
+	display: none;
+}
+
+#header-img-2 {
+	display: none;
+}
+
+#header-img-3 {
+	display: flex;
 }
