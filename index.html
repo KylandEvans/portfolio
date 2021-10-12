@@ -6,6 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="stylesheet" href="responsive.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<script src="script.js" defer></script>
 		<title>Kyland Evans | Home</title>
 	</head>
@@ -15,38 +21,18 @@
 				<img src="./Icons/logo.svg" alt="" />
 			</div>
 			<div class="nav-headers">
-				<div class="nav-content">
-					<a href="#">Home</a>
-					<a href="#">About</a>
-					<a href="#">Projects</a>
-				</div>
+				<ul class="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">My Skills</a></li>
+					<li><a href="#">Projects</a></li>
+				</ul>
 			</div>
 		</nav>
 		<header>
-			<div class="img-container">
-				<div class="slides">
-					<button class="img-gallery-button">&#8249;</button>
-					<img
-						src="./Images/coding_image_1.jpg"
-						alt=""
-						id="header-img-1"
-					/>
-					<img
-						src="./Images/coding_image_2.jpg"
-						alt=""
-						id="header-img-2"
-					/>
-					<img
-						src="./Images/saying_main_image.jpg"
-						alt=""
-						id="header-img-3"
-					/>
-					<button class="img-gallery-button">&#8250;</button>
-					<div class="img-span-container">
-						<span class="img-span"></span>
-						<span class="img-span"></span>
-						<span class="img-span"></span>
-					</div>
+			<div class="banner-container">
+				<div class="banner">
+					<img src="./Icons/banner.svg" alt="" />
 				</div>
 			</div>
 		</header>
@@ -54,6 +40,117 @@
 			<div class="about-me-container">
 				<div class="about-me">
 					<img src="./Images/bio-image.jpg" alt="" />
+					<p>
+						Hello, I am Kyland. I am a new aspiring web developer
+						currently working on front-end development. I am currently a
+						Bachelors in Computer Science student working on my third
+						year. I am a very motivated, self-taught web developer that
+						enjoys developing websites. I am currently seeking my first
+						job as a web developer and would love to talk to anyone who
+						needs a front-end developer.
+					</p>
+				</div>
+			</div>
+			<h2>Technologies I know</h2>
+			<div class="skills-container">
+				<div class="skills">
+					<div class="logos">
+						<img src="./Icons/html5_logo.png" alt="" class="logo-size" />
+						<img src="./Icons/css3_logo.png" alt="" class="logo-size" />
+						<img
+							src="./Icons/javascript_logo.png"
+							alt=""
+							class="logo-size"
+						/>
+					</div>
+					<div class="logos">
+						<img
+							src="./Icons/bootstrap_logo.png"
+							alt=""
+							class="logo-size bootstrap-logo"
+						/>
+						<img src="./Icons/es6_logo.png" alt="" class="logo-size" />
+					</div>
+				</div>
+			</div>
+			<h2>My Projects</h2>
+			<div class="projects-container">
+				<div class="project-wrapper">
+					<div class="project-hover">
+						<button class="view-project-button">View Project</button>
+					</div>
+					<div class="project-head">
+						<img src="./Images/orderSummaryScreenShot.png" alt="" />
+					</div>
+					<div class="project-body">
+						<p>
+							The order summary component was one of the first projects
+							that I was able to complete on my own using basic HTML and
+							CSS skills.
+						</p>
+					</div>
+				</div>
+				<div class="project-wrapper">
+					<div class="project-hover">
+						<button class="view-project-button">View Project</button>
+					</div>
+					<div class="project-head">
+						<img src="./Images/ticTacToeScreenShot.png" alt="" />
+					</div>
+					<div class="project-body">
+						<p>
+							The Tic-Tac-Toe game was an extention from a project that I
+							started in collage. It was originally a HTML/CSS project
+							then I added some extra CSS and the JavaScript. It was the
+							first project I added JavaScript to.
+						</p>
+					</div>
+				</div>
+				<div class="project-wrapper">
+					<div class="project-hover">
+						<button class="view-project-button">View Project</button>
+					</div>
+					<div class="project-head">
+						<img src="./Images/tipCalculatorScreenShot.png" alt="" />
+					</div>
+					<div class="project-body">
+						<p>
+							The tip calculator was the first project that I was able to
+							build the HTML/CSS/JS all in one and put it all together.
+							It was a difficult challenge being my first full project
+							but I feel it turned out great
+						</p>
+					</div>
+				</div>
+				<div class="project-wrapper">
+					<div class="project-hover">
+						<button class="view-project-button">View Project</button>
+					</div>
+					<div class="project-head">
+						<img src="./Images/blogrLandingPageScreenShot.png" alt="" />
+					</div>
+					<div class="project-body">
+						<p>
+							The Blogr Landing page was a very CSS heavy build with
+							little JS. It shows great CSS technique and understanding.
+							It was a great challenge to work on my CSS skills.
+						</p>
+					</div>
+				</div>
+				<div class="project-wrapper">
+					<div class="project-hover">
+						<button class="view-project-button">View Project</button>
+					</div>
+					<div class="project-head">
+						<img src="./Images/weatherAPIScreenShot.png" alt="" />
+					</div>
+					<div class="project-body">
+						<p>
+							This simple weather app is a basic page that creates an API
+							call and displays the information on the screen. This is
+							not a CSS project but a showing of basic API calls.
+						</p>
+					</div>
 				</div>
 			</div>
 		</main>
