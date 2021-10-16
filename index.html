@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="styles.css" />
-		<link rel="stylesheet" href="responsive.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -16,16 +15,25 @@
 		<title>Kyland Evans | Home</title>
 	</head>
 	<body>
+		<div class="nav-open-container">
+			<span class="mobile-nav-open"></span>
+			<span class="mobile-nav-open"></span>
+			<span class="mobile-nav-open"></span>
+		</div>
+		<div class="nav-close-container">
+			<span class="mobile-nav-close"></span>
+			<!-- <span class="mobile-nav-close"></span> -->
+		</div>
 		<nav class="nav-bar">
 			<div class="logo">
 				<img src="./Icons/logo.svg" alt="" />
 			</div>
 			<div class="nav-headers">
 				<ul class="nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">My Skills</a></li>
-					<li><a href="#">Projects</a></li>
+					<li id="home-nav-button">Home</li>
+					<li id="about-nav-button">About</li>
+					<li id="skills-nav-button">My Skills</li>
+					<li id="projects-nav-button">Projects</li>
 				</ul>
 			</div>
 		</nav>
@@ -75,9 +83,16 @@
 			</div>
 			<h2>My Projects</h2>
 			<div class="projects-container">
-				<div class="project-wrapper">
+				<div
+					class="project-wrapper"
+					onclick="location.href='./views/orderSumaryOverView.html'"
+				>
 					<div class="project-hover">
-						<button class="view-project-button">View Project</button>
+						<a
+							class="view-project-button"
+							href="./views/orderSumaryOverView.html"
+							>View Project</a
+						>
 					</div>
 					<div class="project-head">
 						<img src="./Images/orderSummaryScreenShot.png" alt="" />
@@ -91,8 +106,15 @@
 					</div>
 				</div>
 				<div class="project-wrapper">
-					<div class="project-hover">
-						<button class="view-project-button">View Project</button>
+					<div
+						class="project-hover"
+						onclick="location.href='./views/ticTacToeOverView.html'"
+					>
+						<a
+							class="view-project-button"
+							href="./views/ticTacToeOverView.html"
+							>View Project</a
+						>
 					</div>
 					<div class="project-head">
 						<img src="./Images/ticTacToeScreenShot.png" alt="" />
@@ -107,8 +129,15 @@
 					</div>
 				</div>
 				<div class="project-wrapper">
-					<div class="project-hover">
-						<button class="view-project-button">View Project</button>
+					<div
+						class="project-hover"
+						onclick="location.href='./views/tipCalculatorOverView.html'"
+					>
+						<a
+							class="view-project-button"
+							href="./views/tipCalculatorOverView.html"
+							>View Project</a
+						>
 					</div>
 					<div class="project-head">
 						<img src="./Images/tipCalculatorScreenShot.png" alt="" />
@@ -123,8 +152,15 @@
 					</div>
 				</div>
 				<div class="project-wrapper">
-					<div class="project-hover">
-						<button class="view-project-button">View Project</button>
+					<div
+						class="project-hover"
+						onclick="location.href='./views/blogrLandingPageOverView.html'"
+					>
+						<a
+							class="view-project-button"
+							href="./views/blogrLandingPageOverView.html"
+							>View Project</a
+						>
 					</div>
 					<div class="project-head">
 						<img src="./Images/blogrLandingPageScreenShot.png" alt="" />
@@ -138,8 +174,15 @@
 					</div>
 				</div>
 				<div class="project-wrapper">
-					<div class="project-hover">
-						<button class="view-project-button">View Project</button>
+					<div
+						class="project-hover"
+						onclick="location.href='./views/weatherAPIOverView.html'"
+					>
+						<a
+							class="view-project-button"
+							href="./views/weatherAPIOverView.html"
+							>View Project</a
+						>
 					</div>
 					<div class="project-head">
 						<img src="./Images/weatherAPIScreenShot.png" alt="" />
@@ -154,5 +197,46 @@
 				</div>
 			</div>
 		</main>
+		<footer>
+			<div class="footer-container">
+				<div class="logo footer-logo">
+					<img src="./Icons/logo.svg" alt="" />
+				</div>
+				<div class="socials">
+					<div class="twitter-logo social-logo">
+						<a href="https://twitter.com/Kyland_Evans" target="_blank">
+							<img
+								src="./Icons/Twitter social icons - circle - blue.svg"
+								alt=""
+							/>
+						</a>
+					</div>
+					<div class="github-logo social-logo">
+						<a href="https://github.com/KylandEvans" target="_blank">
+							<img src="./Icons/GitHub-Mark-Light-64px.png" type="" />
+						</a>
+					</div>
+					<div class="facebook-logo social-logo">
+						<a
+							href="https://www.facebook.com/profile.php?id=100073718411323"
+							target="_blank"
+						>
+							<img src="./Icons/facebook_logo.svg" alt="" />
+						</a>
+					</div>
+					<div class="linkedin-logo social-logo">
+						<a
+							href="https://www.linkedin.com/in/kylandevans/"
+							target="_blank"
+						>
+							<img src="./Icons/linkedin_logo.png" alt="" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright-container">
+				<p>Copyright Kyland Evans <span class="copyright-year"></span></p>
+			</div>
+		</footer>
 	</body>
 </html>
