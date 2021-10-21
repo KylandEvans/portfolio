@@ -6,9 +6,9 @@
 # Add link to logo
 # Add responsive design to all pages
 # Add JavaScript to main page for header buttons
-Check Firefox for responsiveness
-Check Edge for responsiveness
-Check Safari for responsiveness
+# Check Firefox for responsiveness
+# Check Edge for responsiveness
+# Check Safari for responsiveness
 Add professional photo to page
 Add professional photo to Facebook page
 Add professional photo to Github page
