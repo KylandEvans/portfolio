@@ -195,6 +195,7 @@ header {
 	height: 400px;
 	width: 400px;
 	object-fit: cover;
+	object-position: center center;
 	border-radius: 50%;
 	box-shadow: 5px 5px 5px rgb(30, 30, 30);
 	margin: auto;
