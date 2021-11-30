@@ -385,6 +385,33 @@ footer {
 	transform: scale(1.75);
 }
 
+.resume-download-wrapper {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.resume-download {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 0;
+	border-radius: 15px;
+	padding: 12px 0;
+	text-align: center;
+	color: white;
+}
+
+.resume-download:visited {
+	color: white;
+}
+
+.resume-download:hover {
+	background-color: rgba(221, 221, 221, 0.5);
+}
+
 .back-button-wrapper {
 	width: 150px;
 	border: solid 1px rgba(54, 219, 13, 0.7);
@@ -568,6 +595,13 @@ footer {
 
 /* Starting Responsive Code */
 
+@media (max-width: 1300px) {
+	.resume-download-wrapper {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
 @media (max-width: 1200px) {
 	main .projects-container {
 		grid-template-columns: 32% 32% 32%;
@@ -609,6 +643,10 @@ footer {
 
 	main .projects-container {
 		grid-template-columns: 50% 50%;
+	}
+
+	.resume-download-wrapper {
+		transform: scale(0.85);
 	}
 }
 
@@ -666,6 +704,10 @@ footer {
 	main .projects-container {
 		grid-template-columns: 100%;
 	}
+
+	.resume-download-wrapper {
+		transform: scale(0.7);
+	}
 }
 
 @media (max-width: 550px) {
@@ -717,6 +759,10 @@ footer {
 		height: 85%;
 		margin-top: 20px;
 		margin-bottom: 40px;
+	}
+	.resume-download-wrapper {
+		transform: scale(1);
+		flex-direction: column;
 	}
 }
 
