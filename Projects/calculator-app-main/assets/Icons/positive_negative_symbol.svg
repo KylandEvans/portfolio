@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30px"
+   height="30px"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="positive_negative_symbol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="100mm"
+     inkscape:zoom="8.3856039"
+     inkscape:cx="22.240497"
+     inkscape:cy="8.2880137"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path32500" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="1"
+       id="text17493"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.264583" />
+    <g
+       aria-label="x"
+       transform="scale(0.99489272,1.0051335)"
+       id="text25348"
+       style="font-size:12.3199px;line-height:1.25;stroke-width:0.307999" />
+    <g
+       aria-label="x"
+       id="text35480"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.264583" />
+    <g
+       aria-label="2"
+       transform="scale(0.99313137,1.0069161)"
+       id="text39318"
+       style="font-size:6.09218px;line-height:1.25;stroke-width:0.152305" />
+    <g
+       aria-label="+"
+       id="text66515"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.264583" />
+    <g
+       aria-label="-"
+       transform="scale(1.290491,0.77489884)"
+       id="text68801"
+       style="font-size:13.6577px;line-height:1.25;stroke-width:0.341442" />
+    <g
+       aria-label="+"
+       transform="scale(0.93781586,1.0663074)"
+       id="text1996"
+       style="font-size:12.954px;line-height:1.25;stroke-width:0.323851" />
+    <g
+       aria-label="_"
+       transform="scale(0.73387832,1.3626237)"
+       id="text3254"
+       style="font-size:19.5701px;line-height:1.25;stroke-width:0.489253" />
+    <g
+       aria-label="|"
+       transform="matrix(0.80116657,0.52278807,-0.57630274,0.87212301,0,0)"
+       id="text4458"
+       style="font-size:22.5813px;line-height:1.25;stroke-width:0.564531">
+      <path
+         id="path5724"
+         d="M 14.090344,14.142404 H 12.171816 V -7.3362942 h 1.918528 z M 24.568681,0.45255704 16.556768,5.2552426 15.656294,4.0034191 23.668207,-0.79926651 Z M 10.702971,0.815628 7.8835122,2.5057331 10.001891,5.450668 9.1431198,5.9654523 7.0247413,3.0205173 4.2052823,4.7106224 3.583373,3.8460544 6.402832,2.1559493 4.2844534,-0.78898567 5.1432244,-1.3037699 7.2616029,1.641165 10.081062,-0.04894006 Z"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/Styles/styles.css" />
+		<!-- <script src="./assets/JS/app.js" defer></script> -->
+		<script src="./assets/JS/script.js" defer></script>
+		<title>Calculator APP</title>
+	</head>
+	<body>
+		<main class="main-container">
+			<div class="header-wrapper">
+				<div class="header">
+					<div>Standard</div>
+				</div>
+				<div class="history-header-wrapper">
+					<div class="history-header active">
+						<div>History</div>
+					</div>
+					<div class="memory-header">
+						<div>Memory</div>
+					</div>
+				</div>
+				<img src="./assets/Icons/history-icon.svg" alt="" class="history-icon">
+			</div>
+			<section class="standard main-wrapper">
+				<div class="main-content">
+					<div class="display-wrapper">
+						<div class="problem-display"></div>
+						<div class="answer-display">0	</div>
+					</div>
+					<div class="memory-manage-wrapper">
+						<button class="memory-manage mem-clear disabled" disabled>MC</button>
+						<button class="memory-manage mem-recall disabled" disabled>MR</button>
+						<button class="memory-manage mem-add">M+</button>
+						<button class="memory-manage mem-subtract">M-</button>
+						<button class="memory-manage mem-store">MS</button>
+						<button class="memory-manage mem-access">M<img src="./assets/Icons/down-arrow.svg" alt=""></button>
+					</div>
+					<div class="standard-buttons-wrapper">
+						<button
+							class="button action-button flex-center-center percentage"
+							value="%"
+						>
+							<img
+								src="./assets/Icons/percentage_simbol.svg"
+								alt=""
+							/></button
+						><button
+							class="button action-button flex-center-center clear-entry"
+							value="Clear Entry"
+						>
+							CE</button
+						><button
+							class="button action-button flex-center-center clear"
+							value="Clear"
+						>
+							C</button
+						><button
+							class="
+								button
+								action-button
+								flex-center-center
+								delete-button
+							"
+							value="del"
+						>
+							<img src="./assets/Icons/backspace.svg" alt="" /></button
+						><button class="button action-button flex-center-center fraction">
+							<img src="./assets/Icons/fraction.svg" alt="" /></button
+						><button class="button action-button flex-center-center exponent">
+							<img src="./assets/Icons/exponent.svg" alt="" /></button
+						><button class="button action-button flex-center-center sqrt">
+							<img
+								src="./assets/Icons/square_root_symbol.svg"
+								alt=""
+							/></button
+						><button
+							class="
+								button
+								action-button
+								flex-center-center
+								operand-button
+								division
+							"
+							value="/"
+						>
+						&#247</button
+						><button
+							class="button number-button flex-center-center"
+							value="7"
+						>
+							7</button
+						><button
+							class="button number-button flex-center-center"
+							value="8"
+						>
+							8</button
+						><button
+							class="button number-button flex-center-center"
+							value="9"
+						>
+							9</button
+						><button
+							class="
+								button
+								action-button
+								flex-center-center
+								operand-button
+							"
+							value="*"
+						>
+							<img
+								src="./assets/Icons/multiplication_symbol.svg"
+								alt=""
+							/></button
+						><button
+							class="button number-button flex-center-center"
+							value="4"
+						>
+							4</button
+						><button
+							class="button number-button flex-center-center"
+							value="5"
+						>
+							5</button
+						><button
+							class="button number-button flex-center-center"
+							value="6"
+						>
+							6</button
+						><button
+							class="
+								button
+								action-button
+								flex-center-center
+								operand-button
+							"
+							value="-"
+						>
+							<img
+								src="./assets/Icons/subtraction_symbol.svg"
+								alt=""
+							/></button
+						><button
+							class="button number-button flex-center-center"
+							value="1"
+						>
+							1</button
+						><button
+							class="button number-button flex-center-center"
+							value="2"
+						>
+							2</button
+						><button
+							class="button number-button flex-center-center"
+							value="3"
+						>
+							3</button
+						><button
+							class="
+								button
+								action-button
+								flex-center-center
+								operand-button
+							"
+							value="+"
+						>
+							<img
+								src="./assets/Icons/addition_symbol.svg"
+								alt=""
+							/></button
+						><button class="button number-button flex-center-center pos-neg">
+							<img
+								src="./assets/Icons/positive_negative_symbol.svg"
+								alt=""
+							/></button
+						><button
+							class="button number-button flex-center-center"
+							value="0"
+						>
+							0</button
+						><button
+							class="button number-button flex-center-center decimal"
+							value="."
+						>
+							<img src="./assets/Icons/period.svg" alt="" /></button
+						><button class="button flex-center-center equals-button">
+							<img src="./assets/Icons/equals_symbol.svg" alt="" />
+						</button>
+					</div>
+				</div>
+				<div class="history-content">
+					<div class="clear-history">
+						<img src="./assets/Icons/trash.svg" alt="" class="trash">
+					</div>
+				</div>
+				<div class="memory-content">
+					
+				</div>
+
+			</section>
+		</main>
+	</body>
+</html>

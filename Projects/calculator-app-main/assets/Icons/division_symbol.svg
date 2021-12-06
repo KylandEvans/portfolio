@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30"
+   height="30"
+   viewBox="0 0 10.583333 10.583333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="division_symbol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="30px"
+     inkscape:zoom="16.771208"
+     inkscape:cx="11.299126"
+     inkscape:cy="5.0383968"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path32500" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="1"
+       id="text17493"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.264583" />
+    <g
+       aria-label="x"
+       transform="scale(0.99489272,1.0051335)"
+       id="text25348"
+       style="font-size:12.3199px;line-height:1.25;stroke-width:0.307999" />
+    <g
+       aria-label="x"
+       id="text35480"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.264583" />
+    <g
+       aria-label="2"
+       transform="scale(0.99313137,1.0069161)"
+       id="text39318"
+       style="font-size:6.09218px;line-height:1.25;stroke-width:0.152305" />
+    <g
+       aria-label="+"
+       id="text66515"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.264583" />
+    <g
+       aria-label="-"
+       transform="scale(1.290491,0.77489884)"
+       id="text68801"
+       style="font-size:13.6577px;line-height:1.25;stroke-width:0.341442" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.87741px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0969354"
+       x="3.6795592"
+       y="4.3926921"
+       id="text3703"
+       transform="scale(1.1368017,0.87966093)"><tspan
+         sodipodi:role="line"
+         id="tspan3701"
+         style="fill:#ffffff;stroke-width:0.0969354"
+         x="3.6795592"
+         y="4.3926921">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.01484px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22537"
+       x="3.1113355"
+       y="-2.8523099"
+       id="text6893"
+       transform="matrix(0.00210587,0.96111723,-1.0404445,0.00515989,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6891"
+         style="fill:#ffffff;stroke-width:0.22537"
+         x="3.1113355"
+         y="-2.8523099">|</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.24939px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.106235"
+       x="3.7775836"
+       y="9.3598766"
+       id="text3703-2"
+       transform="scale(1.0865009,0.92038579)"><tspan
+         sodipodi:role="line"
+         id="tspan3701-3"
+         style="fill:#ffffff;stroke-width:0.106235"
+         x="3.7775836"
+         y="9.3598766">0</tspan></text>
+  </g>
+</svg>
