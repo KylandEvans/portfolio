@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="62mm"
+   height="62mm"
+   viewBox="0 0 62 62"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo_browser.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.096401"
+     inkscape:cx="43.64623"
+     inkscape:cy="134.75475"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     height="296mm"
+     width="26mm"
+     fit-margin-left="0"
+     fit-margin-top="0" />
+  <defs
+     id="defs2">
+    <rect
+       x="140.31496"
+       y="407.45306"
+       width="99.839493"
+       height="56.665657"
+       id="rect1815" />
+  </defs>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(1.118852,-0.13855494,0.11869859,0.84834095,-229.92344,-326.91348)"
+       id="text1813"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1815);fill:#000000;fill-opacity:1;stroke:none" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.793999"
+       id="path1088"
+       cx="31.173464"
+       cy="30.984154"
+       rx="30.668633"
+       ry="30.731735" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Logo">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.0678px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.926702"
+       x="-9.9237022"
+       y="37.45586"
+       id="text17094"
+       transform="matrix(0.60412955,-0.25741558,0.22794639,1.5581477,0,0)"
+       inkscape:transform-center-x="-4.6256987"
+       inkscape:transform-center-y="0.48619347"><tspan
+         sodipodi:role="line"
+         id="tspan17092"
+         style="stroke-width:0.926702"
+         x="-9.9237022"
+         y="37.45586">&lt;/K&gt;</tspan></text>
+  </g>
+</svg>
