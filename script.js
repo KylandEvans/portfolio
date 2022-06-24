@@ -85,5 +85,3 @@ navToggleOpen.addEventListener("click", navOpen);
 navToggleClose.addEventListener("click", navClose);
 logoLink.addEventListener("click", goHome);
 window.addEventListener("resize", resetMenu);
-
-console.log(window.location.pathname);
