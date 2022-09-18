@@ -1,0 +1,255 @@
+@media (max-width: 1250px) {
+	.phones-image {
+		transform: scale(0.85);
+		margin-left: -50px;
+	}
+	.laptop-image {
+		transform: scale(0.85);
+		margin-left: -300px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.illustration-editor-desktop {
+		transform: scale(0.75);
+	}
+}
+
+@media (max-width: 1050px) {
+	.laptop-image {
+		transform: scale(0.75);
+	}
+}
+
+@media (max-width: 950px) {
+	.page-header {
+		font-size: 42px;
+	}
+	.illustration-editor-desktop {
+		display: none;
+	}
+	.illustration-editor-mobile {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.section-seperator {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+	}
+	.first-section-text {
+		margin: 10%;
+		padding: 0;
+		height: fit-content;
+	}
+	.editor-header {
+		display: flex;
+		justify-content: center;
+	}
+	.section-two {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-position: 50% 90%;
+	}
+	.section-two-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+	}
+	.phones-image {
+		transform: scale(0.75);
+		margin-top: -200px;
+		padding: 0;
+	}
+	.infrastructure {
+		margin: auto;
+		width: 100%;
+	}
+	.infratructure-heading {
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		margin-top: -100px;
+	}
+	.infrastructure-text {
+		margin: auto;
+		text-align: center;
+	}
+	.laptop-image {
+		display: none;
+	}
+	.laptop-image-mobile {
+		display: flex;
+	}
+	.section-three-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.section-three-text-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.section-three-header,
+	.section-three-text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 800px) {
+	.mobile-nav-toggle {
+		display: flex;
+	}
+	.nav-bar {
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+	}
+	.logo {
+		position: absolute;
+		top: 48px;
+		left: 10px;
+	}
+	.nav-buttons {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 100px;
+		width: 95%;
+		margin: 0;
+		margin-top: 75px;
+		background-color: white;
+		height: 550px;
+		border: black solid 1px;
+		position: absolute;
+	}
+	.dropdown-content {
+		display: none;
+		position: relative;
+		flex-direction: column;
+	}
+	.dropdown {
+		width: 95%;
+	}
+	.dropdown:hover .dropdown-content {
+		display: none;
+	}
+	.login-buttons {
+		display: none;
+	}
+	.login-buttons-mobile {
+		display: flex;
+	}
+	.login-buttons button:first-child {
+		color: black;
+	}
+	.dropdown-button {
+		color: black;
+	}
+	.h1 {
+		margin-top: 200px;
+	}
+	.main-header {
+		margin-top: 120px;
+		height: auto;
+	}
+	hr {
+		display: inline;
+		width: 95%;
+	}
+	.login-buttons-mobile {
+		display: flex;
+		justify-content: center;
+		align-content: space-between;
+		flex-direction: column;
+		height: 10%;
+	}
+	.login-buttons-mobile button {
+		border: none;
+		background-color: white;
+		font-size: 24px;
+		cursor: pointer;
+	}
+	.login-buttons-mobile button:last-child {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #ff525d;
+		height: 32px;
+		border-radius: 24px;
+		padding: 24px;
+		margin-top: 15px;
+		margin-bottom: 25px;
+		color: black;
+	}
+	.login-buttons-mobile button:last-child:hover {
+		background-color: rgb(250, 213, 213);
+		color: #ff525d;
+	}
+	.nav-drop-arrow-light {
+		display: none;
+	}
+	.nav-drop-arrow-dark {
+		display: inline;
+	}
+}
+
+@media (max-width: 700px) {
+	.signup-modal {
+		width: 90%;
+		margin-left: -50px;
+	}
+	.login-modal {
+		width: 90%;
+		margin-left: -50px;
+	}
+	.name {
+		display: flex;
+		flex-direction: column;
+	}
+	.personal-info {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 450px) {
+	footer {
+		height: fit-content;
+		background-color: #25252d;
+	}
+	.footer-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.illustration-editor-mobile {
+		transform: scale(0.75);
+	}
+	.section-two-wrapper {
+		transform: scale(0.75);
+	}
+	.phones-image {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 350px) {
+	.footer-wrapper {
+		margin-top: 50px;
+	}
+}

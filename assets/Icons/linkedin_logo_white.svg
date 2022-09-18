@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22mm"
+   height="22mm"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="linkedin_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="127.49773"
+     inkscape:cy="451.30149"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.38701969,-0.5709138)" />
+  <path
+     id="path47"
+     d="M 19.979,0.5 H 2.083 C 1.227,0.5 0.5,1.177 0.5,2.011 v 17.977 c 0,0.835 0.47700001,1.512 1.333,1.512 h 17.896 c 0.857,0 1.771,-0.677 1.771,-1.512 V 2.011 C 21.5,1.177 20.836,0.5 19.979,0.5 Z M 8.5,8.5 h 2.827 v 1.4410002 h 0.031 C 11.789,9.164 13.062,8.375 14.636,8.375 c 3.021,0 3.864,1.6040002 3.864,4.575 v 5.55 h -3 V 13.497 C 15.5,12.167 14.969,11 13.727,11 12.219,11 11.5,12.021 11.5,13.697 V 18.5 h -3 z m -5,10 h 3 v -10 h -3 z M 6.875,5 C 6.875,6.036 6.036,6.875 5,6.875 3.964,6.875 3.125,6.036 3.125,5 3.125,3.964 3.964,3.125 5,3.125 6.036,3.125 6.875,3.964 6.875,5 Z"
+     style="fill:none;stroke:#ffffff;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.5;fill-opacity:0;stroke-opacity:0.75" />
+</svg>

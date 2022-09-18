@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="29.570101mm"
+   height="21mm"
+   viewBox="0 0 29.570101 21"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="youtube_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="128.84691"
+     inkscape:cy="449.9523"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.570913,-0.927884)" />
+  <g
+     id="g116"
+     transform="translate(-39.83774,-23.060096)"
+     style="stroke:#000000;stroke-width:1.32291667;stroke-miterlimit:4;stroke-dasharray:none;fill:none">
+    <path
+       id="path9"
+       d="m 68.31044,26.683336 c -0.3292,-1.23001 -1.2959,-2.196617 -2.5259,-2.525874 -2.2271,-0.597365 -11.1618,-0.597366 -11.1618,-0.597366 0,0 -8.93458,10e-7 -11.16177,0.597366 -1.23,0.329257 -2.196607,1.295864 -2.525864,2.525874 -0.597365,2.22718 -0.597366,6.87676 -0.597366,6.87676 0,0 1e-6,4.6496 0.597366,6.8768 0.329257,1.23 1.295864,2.1966 2.525864,2.5258 2.22719,0.5974 11.16177,0.5974 11.16177,0.5974 0,0 8.9347,0 11.1618,-0.5974 1.23,-0.3292 2.1967,-1.2958 2.5259,-2.5258 0.5974,-2.2272 0.5974,-6.8768 0.5974,-6.8768 0,0 -0.0024,-4.64958 -0.5974,-6.87676 z"
+       fill="#ff0000"
+       style="fill:none;stroke:#000000;stroke-width:1.32291667;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="path13"
+       d="m 51.049098,37.488525 7.4224,-4.285 -7.4224,-4.28507 z"
+       fill="#ffffff"
+       style="stroke:#000000;stroke-width:1.32291667;stroke-miterlimit:4;stroke-dasharray:none;fill:none" />
+  </g>
+</svg>

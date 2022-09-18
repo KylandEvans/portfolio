@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+}
+
+.body-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background: url("./images/pattern-background-desktop.svg"), #e0e8ff;
+	background-repeat: no-repeat;
+}
+
+.card-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	height: fit-content;
+	width: 30%;
+	border-radius: 20px;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+.card-head {
+	display: flex;
+	border-radius: 20px;
+	background-repeat: no-repeat;
+	height: auto;
+	width: auto;
+}
+
+.card-head img {
+	display: flex;
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.summary-text {
+	text-align: center;
+}
+
+.summary-text h1 {
+	margin: 15px;
+}
+
+.summary-text h4 {
+	color: #7280a7;
+	margin: 15px 60px;
+	font-weight: 300;
+}
+
+.order-plan-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 10%;
+	background-color: rgb(243, 242, 242);
+	border-radius: 8px;
+}
+
+.order-plan-container img {
+	margin: 13px 10px;
+}
+
+.order-plan-container .plan-price {
+	margin-left: -18%;
+}
+
+.plan-price p {
+	color: #7280a7;
+	font-weight: 300;
+}
+
+.change-link:hover {
+	color: #766cf1;
+	text-decoration: none;
+	font-weight: 400;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.buttons button {
+	width: 82%;
+	padding: 20px 0;
+	border: none;
+	border-radius: 12px;
+}
+
+.buttons button:hover {
+	cursor: pointer;
+}
+
+.buttons button:first-child {
+	background-color: #3829e0;
+	margin-bottom: 7px;
+	color: white;
+}
+
+.buttons button:first-child:hover {
+	background-color: #766cf1;
+}
+
+.buttons button:last-child {
+	background-color: white;
+}
+
+@media (max-width: 1200px) {
+	.order-plan-container img {
+		margin-right: 40px;
+	}
+}
+
+@media (max-width: 900px) {
+	.card-container {
+		width: 60%;
+	}
+	.card-head {
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.card-container {
+		width: 90%;
+	}
+}
